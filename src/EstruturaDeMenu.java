@@ -1,10 +1,10 @@
-
+import java.util.Scanner;
 public class EstruturaDeMenu {
 
 	public static void main(String[] args) {
 
 		 int opcao =0;
-		 
+		 Scanner leitor = new Scanner (System.in);
 		 
 		 while(opcao!= 4 ) {
 			 System.out.println ("Escolha uma das opções a seguir:");
@@ -27,11 +27,13 @@ public class EstruturaDeMenu {
 			  case 3:
 				  System.out.println ("Voce escolheu a opcao C");
 				  break; 
-		   			   
-				  
-				  
-		  }
+		   			   		  
+		     }
+		
 		 }
+			leitor.close();
+		 
 	}
-
+	
+	
 }

@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class EntendendoLoopWile {
+public class EntendendoLoopWhile {
 
 	public static void main(String[] args) {
 		/*Imagine que uma ONG precise saber a média de idades dos alunos de uma escola.
